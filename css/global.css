@@ -76,7 +76,7 @@ nav ul li a:hover{
   /* A toggled state! No JavaScript! */
   
   transition: ease-in-out;
-  transition-duration:500ms;
+  transition-timing-function: cubic-bezier(0,.67,.86,.04);
   display: block;
 }
 
