@@ -32,21 +32,40 @@ header{
   
   
 }
-
+/* Header flex syles */
+.nav-wrapper{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+/* Logo styles */
 .logo a{
   padding: 5px 0 0;
 }
+
+.logo img{
+  width:70%;
+}
+.logo{
+  padding: 10px;
+}
+/* Nav styles */
 nav {
-  background: rgba(160, 162, 183, 0.9) none repeat scroll 0 0;
+  display: none;
   position: absolute;
   width: 100%;
   z-index: 2;
-  display: none;
+
+  background: rgba(160, 162, 183, 0.9) none repeat scroll 0 0;
+  
 }
+/* Navigation flex */
 nav ul{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+
   margin: 20px;
   padding: 0;
   
@@ -54,6 +73,7 @@ nav ul{
     
 }
 
+/* Navigation link styles */
 nav ul li a{
   padding: 20px;
   margin-left: 10px;
@@ -64,29 +84,26 @@ nav ul li a{
 nav ul li a:hover{
   color:#e9212e;
 }
-.nav-wrapper{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-}
-.logo img{width:70%;}
+
 /*mobile navigation*/
 #toggle:checked ~ nav {
-  /* A toggled state! No JavaScript! */
-  
+  display: block;
+
+  /*Trasitioining Nav bar*/
   transition: ease-in-out;
   transition-timing-function: cubic-bezier(0,.67,.86,.04);
-  display: block;
+  
 }
 
 label {
   display: block;
+  height:72px;
+  width: 72px;
+
   background-image: url("../images/mobile-menu.svg");
   background-repeat: no-repeat;
   background-size:contain;
-  height:72px;
-  width: 72px;
+  
   position: absolute;
   top:.5rem;
   right:.5rem;
@@ -97,7 +114,6 @@ label {
   position: absolute;
   left: -100vw;
   
-  /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
 }
 
 /*Main section styles*/
@@ -108,13 +124,15 @@ main{
 }
 section{
   margin:1.5rem 0;
+
   background-color: white;
 }
 /*Banner section styles*/
 .discription{
   position: relative;
-  display: block;
   z-index: 1;
+
+  display: block;
   padding:2rem;
 
   background: url("../images/banner.jpg")  no-repeat;
@@ -122,6 +140,7 @@ section{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
   color:white;
  
 
@@ -129,6 +148,7 @@ section{
 .discription::before{
   height: 100%;
   width: 100%;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -142,6 +162,7 @@ section{
 
 .discription h1{
   font-size:24px;
+
   margin: 0;
 }
 .discription p{
@@ -151,6 +172,7 @@ section{
 .discription a{
   background-color:#e9212e ;
   color:white;
+
   padding: 20px;
 }
 
@@ -176,28 +198,6 @@ footer{
  
 }
 
-/*Gallery section styles*/
-.flex-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 1rem;
-}
-
-.flex-container >  div{
-  flex-basis:325px;
-  margin-bottom: 20px;
-  
-}
-
-#Gallery{
-  background-color: white;
-
-  margin: 1rem 0;
-}
-#Gallery img{
-  width:100%;
-}
 h2{
   font-size:24px;
   padding: 20px;
@@ -216,19 +216,20 @@ h2{
 .button:hover{
   background-color: dimgray;
 }
-.logo{
-  padding: 10px;
-}
+
 
 /*Testimonial syles*/
 .card {
 
-  background-color:white;
-  color:black;
   padding: 2rem;
   height: 310px;
+
+  background-color:white;
+
+  color:black;
   text-align: center;
-  box-shadow: 0px 2px 10px 3px #f6f6f6;
+
+  box-shadow: 0px 2px 10px 3px #e3e3e3;
 }
 .cards {
   
@@ -246,6 +247,7 @@ h2{
   width: 100px;
   height: 100px;
   margin: 2rem auto;
+
   border-radius: 50%;
 
 }
@@ -264,9 +266,6 @@ h2{
 .cards-image img:hover{
   transform: rotate(360deg);
 }
-/* .inner-content div{
-  margin:2rem auto;
-} */
 
 /*desktop specific styles*/
 @media screen and (min-width: 600px) {
@@ -298,6 +297,7 @@ h2{
   }
   nav {
     background:none;
+    
     position: relative;
     width: auto;
     z-index: 2;
