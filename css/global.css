@@ -222,7 +222,7 @@ h2{
 .card {
 
   padding: 2rem;
-  height: 310px;
+  min-height: 310px;
 
   background-color:white;
 
