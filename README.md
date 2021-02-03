@@ -19,13 +19,13 @@ Testimonials section is build using cards concept. This section contains 3 testi
 1. **Images :**
 
     - Logo of the website is made by [canava.com](https://www.canva.com).
-    - Banner image: Photo by [Dan Gold](https://stocksnap.io/author/35902) from [StockSnap](https://stocksnap.io").
+    - Banner image: Photo by [Dan Gold](https://stocksnap.io/author/35902) from [StockSnap](https://stocksnap.io).
     - Ham buger icon: Icon is taken from [svgrepo.com](https://www.svgrepo.com/).
-    - "testimonial-1" image: Photo by [Candace McDaniel](https://stocksnap.io/author/candacemcdaniel) from [StockSnap](https://stocksnap.io").
-    - "testimonial-2" image: Photo by [Icons8 team]("https://stocksnap.io/author/icons8") from [StockSnap](https://stocksnap.io").
-    - "testimonial-3" image: Photo by [Direct Media]("https://stocksnap.io/author/directmedia") from [StockSnap](https://stocksnap.io").
+    - testimonial-1 image: Photo by [Candace McDaniel](https://stocksnap.io/author/candacemcdaniel) from [StockSnap](https://stocksnap.io).
+    - testimonial-2 image: Photo by [Icons8 team](https://stocksnap.io/author/icons8) from [StockSnap](https://stocksnap.io).
+    - testimonial-3 image: Photo by [Direct Media](https://stocksnap.io/author/directmedia) from [StockSnap](https://stocksnap.io).
 
 2. **Code :**
   
     - Responsive grid layout without media queries is build on the basis of example from [css-tricks.com](https://css-tricks.com/a-responsive-grid-layout-with-no-media-queries/).
-    - Toggle with css is build on the basis of The “[Checkbox Hack](https://css-tricks.com/the-checkbox-hack/)”.
+    - Toggle with css is build on the basis of The [Checkbox Hack](https://css-tricks.com/the-checkbox-hack/).

@@ -200,7 +200,7 @@ footer{
 
 h2{
   font-size:24px;
-  padding: 20px;
+  padding: 1rem 1rem .5rem;
   margin: 0;
 }
 /*button styles*/
@@ -269,10 +269,11 @@ h2{
 
 /*desktop specific styles*/
 @media screen and (min-width: 600px) {
+/* Logo styles */
   .logo img{
     width:auto;
   }
-  
+  /*banner styles*/
   .banner-content article {
       width: 70%;
   }
@@ -288,6 +289,8 @@ h2{
   }
   
 }
+
+
 @media (min-width: 1200px) {
   /* Desktop navigation*/
   .nav-wrapper {
